@@ -40,6 +40,6 @@ function Layout(){
     );
 };
 
-// <Route path="/character/:id" component={CharacterDetail} />
+
 
 export default Layout;
