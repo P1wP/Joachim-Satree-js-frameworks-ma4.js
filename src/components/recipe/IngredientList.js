@@ -28,7 +28,8 @@ export function Ingredients({ingredients}){
 
 Ingredients.propTypes = {
     
-    arrayFromString: PropTypes.array.isRequired
+    arrayFromString: PropTypes.array.isRequired,
+    ingredients: PropTypes.string.isRequired
 }
 
 export default Ingredients;

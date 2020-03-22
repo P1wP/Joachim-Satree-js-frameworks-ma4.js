@@ -26,7 +26,8 @@ function RecipeItem({title, thumbnail, ingredients}){
 
 RecipeItem.propTypes = {
     title: PropTypes.string.isRequired,
-    thumbnail: PropTypes.string.isRequired
+    thumbnail: PropTypes.string.isRequired,
+    ingredients: PropTypes.string.isRequired
 };
 
 export default RecipeItem;
